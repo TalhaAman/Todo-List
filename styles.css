@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(4, 161, 98);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+}
+
+header h2 {
+  margin: 10px auto;
+  text-align: center;
+
+}
+.search-bar input {
+  width: 90%;
+  margin: 0px 15px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+}
+.todo-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-item {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(5, 198, 134);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 1.2rem;
+}
+.list-item span {
+  flex: 2;
+  margin-right: 12px;
+}
+.filtered {
+display: none;
+}
+.add label {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+.add input {
+  width: 90%;
+  margin: 0px 15px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+}
